@@ -12,7 +12,7 @@ var loadingContact = 0;
 
 // Initializes Website with a greeting in both console and alert.
 function initApp() {
-    console.log('Mustang Lite - Starting!');
+    console.log('Mustang V1 - Starting!');
     window.alert("Welcome to Mustang V1! Please click on instructions.") 
 }
 
