@@ -1,0 +1,31 @@
+<!--
+    Author: Xavier Gonzalez
+    Class: Web & Distributed Programming
+    Project: Mustang V1
+    Description: Load and Show contacts in webpage and console that are pulled from an array of jsons.
+    File: index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mustang V1</title>
+        <link rel="stylesheet" href="mustang-v1.css">
+        <script src="mustang-v1.js"></script>
+    </head>
+    <body onload="initApp()">
+        <h1>Mustang V1</h1>
+        <div class="centerInstructionButton">
+            <button onclick="instructions()">Instructions</button><br>
+        </div>
+        
+        <button onclick="loadIndex()">Load Index</button><br>
+        Index:<div id="resp"></div>
+
+        <button onclick="loadContacts()">Load Contacts</button><br>
+        Contacts:<div id="contactsID"></div>
+
+        <button onclick="logContacts()">Log Contacts to Console</button><br>
+    </body>
+</html>
